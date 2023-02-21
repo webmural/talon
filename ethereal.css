@@ -1,0 +1,26 @@
+::selection {
+  background: darkviolet;
+  color: gold;
+}
+
+:root {
+  color: #111;
+  background-color: #bae;
+  transition: 210ms;
+}
+
+.toro {
+  color: #111;
+  background-color: #eab;
+}
+
+:any-link {
+  color: inherit;
+  transition: 120ms;
+}
+
+:focus {
+  color: #111;
+  opacity: 1 !important;
+  background-color: #ee1;
+}
